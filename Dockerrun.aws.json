@@ -2,7 +2,7 @@
   "AWSEBDockerrunVersion": "1",
   "volumes": [
     {
-      "name": "app",
+      "name": "saturn",
       "host": {
         "sourcePath": "/app"
       }
@@ -10,7 +10,7 @@
   ],
   "containerDefinitions": [
     {
-      "name": "app",
+      "name": "saturn",
       "essential": true,
       "portMappings": [
         {
